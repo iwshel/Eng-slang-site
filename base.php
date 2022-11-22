@@ -16,3 +16,8 @@
     echo '<a href="javascript: history.back ()" class="naz">&#8249; Вернуться к поиску</a>';
     exit();
   }?> <br>
+
+  <h1>"<?php print_r($mass['phrase']);?>" означает:<br></h1>
+  <h2><?php print_r($mass['descrip']); ?></h2>
+  <br>
+ <a href="javascript: history.back ()" class="naz">&#8249; Вернуться к поиску</a>
